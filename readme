@@ -5,3 +5,16 @@
     2. PCIAT-PCIAT在test中没有，可以作为辅助信息添加进去
 
 数据处理用pandas
+
+1210 为什么决策树是本题目的主流，MLP不行？
+LightGBM : serves as a foundation for ensemble models with fast learning speed and high prediction performance. It helps improve the overall performance of the ensemble by quickly learning patterns that other models might miss.
+Random Forest : predicts by combining multiple decision trees, errors in individual trees are offset, and various patterns are learned to achieve high prediction accuracy and can be applied to a variety of problems. -> ExtraTreesRegressor -> x
+CatBoost : improves the performance of ensemble models by effectively processing these features when there are many categorical features in the dataset. It reduces errors that may occur when other models do not properly handle categorical characteristics and enables more accurate predictions.
+TabNet is a deep learning model that learns nonlinear relationships in data that other GBDT-based models may miss and increases the diversity of ensemble models. This prevents overfitting of the ensemble model and achieves stronger prediction performance.
+XGBoost not only has excellent performance, but also greatly improves learning speed by parallelizing the learning process. It can efficiently utilize multi-core CPUs to quickly learn even large datasets.
+https://www.kaggle.com/code/kleedg/cmi-piu-lee-dong-gi#10.-Train-plan
+
+项目目标：
+1. 学习XBBoost在本题的实现
+2. 用tensorflow实现
+3. 为什么XGBoost比MLP好
