@@ -18,3 +18,8 @@ https://www.kaggle.com/code/kleedg/cmi-piu-lee-dong-gi#10.-Train-plan
 1. 学习XBBoost在本题的实现
 2. 用tensorflow实现
 3. 为什么XGBoost比MLP好
+
+1211
+mlp在在test dataset上效果不好，是过拟合还是欠拟合
+看起来mlp的 准度很低Training Accuracy = 0.2615, Validation Accuracy = 0.2098
+横向对比下xgb的
